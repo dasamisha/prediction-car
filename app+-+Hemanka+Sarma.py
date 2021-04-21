@@ -7,7 +7,7 @@ Created on Wed Jan 20 14:08:23 2021
 import streamlit as st
 import pickle
 import numpy as np
-model=pickle.load(open('C:/Users/lenovo/Downloads/car price/random_forest_regression_model.pkl','rb'))
+model=pickle.load(open('random_forest_regression_model.pkl','rb'))
 
 def predict_price(Present_Price, Kms_Driven, Fuel_Type, Seller_Type,
        Transmission, Owner, no_year):
